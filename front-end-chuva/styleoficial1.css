@@ -261,7 +261,7 @@ body {
 
 
 
-  .topics-container-main {
+.topics-container-main {
     width: 90%;
     padding: 0 auto;
     padding-bottom: 1rem;
@@ -270,6 +270,7 @@ body {
     margin-bottom: 2.5rem;
 
 }
+
 .topic-container-block {
     margin: 1rem .5rem;
     padding: 0;
@@ -509,6 +510,102 @@ textarea {
   /* fim estilo rodapé ---------- */
 
 
+/* media queries pra mobile (TENTATIVA) */
+
+@media (max-width: 1200px) {
+
+
+    
+    .video-player {
+        width: 60%;
+        height: 40%;
+        margin: 1rem 2.5rem;
+    }
+
+
+
+    .main-video-section {
+        
+        margin: 0 auto;
+    }
+
+    .main-buttons,
+    .main-button-download,
+    .main-button-fav,
+    .main-button-doi {
+        margin: 0 .1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+
+    .main-buttons {
+        text-align: center;
+    }
+
+    
+}
+
+@media (max-width:800px) {
+
+    .mobile-out {
+        display: none;
+    }
+
+    .container-header {
+        align-items: stretch;
+    }
+
+    .header-title-style {
+        width: 80%;
+    }
+
+    .header-info,
+    .header-avatar-holder {
+        display: none;
+    }
+
+    aside {
+        display: none;
+    }
+
+    .main-video-section {
+        display:block;
+        margin: 0 auto;
+    }
+
+    .main-buttons,
+    .main-button-download,
+    .main-button-fav,
+    .main-button-doi {
+        margin: 0 .1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+
+    .main-buttons {
+        text-align: center;
+    }
+
+    .video-player {
+        margin: 1rem 2.5rem;
+        width: 80%;
+    }
+
+    .main-video-details {
+        width: 80%;
+        margin: 1rem 2.5rem;
+    }
+
+    .title-container {
+        display: block;
+    }
+}
+
+/* fim media queries pra mobile (TENTATIVA) */
 
 /* layout do grid */
 
