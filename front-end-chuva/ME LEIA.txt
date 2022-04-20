@@ -15,6 +15,8 @@ do resto, o resumo expandido, e os tópicos expandidos foram implementados dentr
 não fica legal e acontecem quebradas :-( 
 2.pode haver excesso de classes no CSS mas nada que comprometa o funcionamento da página.
 
+3.dia 20/04 foram feitas micro alterações no html e css para o site conter algum tipo de responsividade.
+
 
 
 paz.
